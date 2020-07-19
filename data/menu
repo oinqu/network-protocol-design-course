@@ -1,0 +1,19 @@
+####################################
+#####       Menu options       #####
+!help - show help menu.
+!online - show all online nodes.
+!offline - show all offline nodes.
+!all - show all known nodes.
+!exit - exit the application.
+
+####################################
+#####  Sending a text message  #####
+Sending a message is done by defining destination username right after '>'.
+Example: send a 'text message' to the 'username' node:
+>username text message
+
+####################################
+#####      Sending a file      #####
+Sending a file is done by defining destination username right after '>>'.
+Example: send 'path/to/a/file.txt' file to the '**username**' node:
+>>username path/to/a/file.txt
